@@ -1,0 +1,672 @@
+{
+  "schema_version": "1.0",
+  "app_release": "0.1.0+build.85",
+  "files": [
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "sha256": "bceaa860ea5ac4f9afc66781ea9954d218efa5f64e97ee4672aa5af6bd29e6e5",
+      "mode": "0644",
+      "origin": "public-template"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "sha256": "d6e84c27a6fc9dbb899f12b459a8089aa296a14c13fa7ed0f211dcda4265075b",
+      "mode": "0644",
+      "origin": "public-template"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "sha256": "a736b39e19d48f2a317f788279ec5b06e688164047e9d05f2356be47d1827359",
+      "mode": "0644",
+      "origin": "public-template"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "e241957e8a7214018e9cd5ac73a1f4e1564507b12a5d467fbec2617123d805ad",
+      "mode": "0644",
+      "origin": "public-template"
+    },
+    {
+      "path": "bridges/claude/src/auto-connect-client.mjs",
+      "sha256": "a073309aee5aa6ed76823ddb8fa548cc17a9a76de3b783f0c557ec5eb80e4d18",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "bridges/claude/src/auto-connect-hook.mjs",
+      "sha256": "43bc9a57863439984a1e7c993711bf803c822e3d2bca86afb808ef8ca4177cfa",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "bridges/claude/src/auto-connect-mcp.mjs",
+      "sha256": "155b92df674d0883213b894f93b323e7e6ae89d2b43a6c470b755b0d327da24d",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "bridges/claude/src/native-session-client.mjs",
+      "sha256": "488495d116fdce7ba093ca40c4f07bc4578977d5164e75b0864cde9ddb6a18cc",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "bridges/claude/src/product-context.mjs",
+      "sha256": "9d6cacdc6aff2637dbb2bfe3476041ae6283ae1ff986660e1f788e908973ebfa",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "bridges/claude/src/product-core-client.mjs",
+      "sha256": "a3226219224968c7d4f3ad3e9b6698940e987cbe96ee160b1e695892cdd4df85",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "bridges/claude/src/product-tools.mjs",
+      "sha256": "ec227916003274a47ee2cbea85e41806a98fc00121eacf20560e4b60c272510b",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "bridges/claude/src/session-v2-channel-poller.mjs",
+      "sha256": "faebb5a5a7881ae734e3bd14d0ffc142e2a5abfdd303f8cf5463df4427dd4ae9",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "bridges/claude/src/session-v2-client.mjs",
+      "sha256": "c37620c0d84ac85ce5c37b951eafb6e14117915fcba6ad3a23fcdd650e93264d",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "bridges/claude/src/session-v2-context.mjs",
+      "sha256": "0ee77beb961560e85a3c00a8cdab1981a232df7869491354d12eeda1d5318472",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "bridges/claude/src/session-v2-hook.mjs",
+      "sha256": "629eb6dd9ee2a38b2dfd6e25a02a6320bdd9e041235165bc8245b631b209aa5b",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "bridges/claude/src/session-v2-lifecycle.mjs",
+      "sha256": "4afc9083d8bd7e5f34be0448c78c085e0bcefbe599ea68eac4a352fb3e72031f",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "bridges/claude/src/session-v2-mcp.mjs",
+      "sha256": "858f65a7c218736c328ffa81868d4b5521f5e37b57c53d63fbc55d8cca46cea0",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "bridges/claude/src/session-v2-tools.mjs",
+      "sha256": "6baa4b593238a41daa6f49e4767df02f2841f5d5cd1b1eff648087d4b4e557d5",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "bridges/claude/src/session-v2-waiter.mjs",
+      "sha256": "67c66efc64c01f84fbbfcdd0e0c2b8d5a46869636ce1fb297ea4282df4c18fea",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "bridges/codex/plugin/.codex-plugin/plugin.json",
+      "sha256": "3809bb68bfd1627ae893cafd39d5d046ffdd9df30d1d600c1f98078647e635c3",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "bridges/codex/plugin/.mcp.json",
+      "sha256": "2fbc70c87174fddba82cd0dc1b658315267a705ef1074502ab7a7465231da8fd",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "bridges/codex/plugin/hooks/hooks.json",
+      "sha256": "0c5262e08fabd433e31e9f59c448ca50a693879819a61003c3ae8f88026a6072",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "bridges/codex/plugin/scripts/blabee-launcher",
+      "sha256": "f50318516b52b9e099669fdc1cf9c0bd82891be0da5253c50a941f1f1c1f2ec2",
+      "mode": "0755",
+      "origin": "source"
+    },
+    {
+      "path": "bridges/codex/plugin/skills/blabee-decision/agents/openai.yaml",
+      "sha256": "6a57a7eea07b13f0053208de1075dbdaf8ee708f83357d5029498ff2e0a7b1a6",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "bridges/codex/plugin/skills/blabee-decision/SKILL.md",
+      "sha256": "91b7d0d876a753e3c807cd3e78d56146e978d3112c5acb736ef93eb1afa1d5b5",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "683acd62e983f4fdbd6ded4166fd539293d79feb72d5d1f1dd1d5f10f45ffd8e",
+      "mode": "0644",
+      "origin": "public-template"
+    },
+    {
+      "path": "Contracts/v1/action.schema.json",
+      "sha256": "74891ce2683cb20ec4f120760246d1e0bbd84b6e70f5f3a2ab6ffcfc799ceaf7",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Contracts/v1/common.schema.json",
+      "sha256": "a84342c432fc2a1ffe63268096899d3ed6d3354ddfe3b61ba2659f1ea4fe61ca",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Contracts/v1/continuation-envelope.schema.json",
+      "sha256": "0a20a5809edaecbe5b28d44bf9c538e03ff2b7140f1aa5ed1aa45cd5958a351a",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Contracts/v1/decision-packet.schema.json",
+      "sha256": "dfc0fe428d61f4761f6964c64bcf2f30cbf505aa26055cc71f8d5b1635d63f14",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Contracts/v1/decision-proposal.schema.json",
+      "sha256": "18f9ffaf7b13d49bcd840abe3b13c40fbe4a275a37efcc979cc65c3d89261b25",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Contracts/v1/manifest.json",
+      "sha256": "3728189a98f9e566366c2106946762c9e0ec75e56a2be13ed00cb249a2f65214",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Contracts/v1/native-request.schema.json",
+      "sha256": "46244b35bfc09795ca5e5f4ae82f8c89db0231993968fc7dcdd4955b55851a5a",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Contracts/v1/prompt-episode.schema.json",
+      "sha256": "85d4f66d5c195f92f53991fae415dc0fe2d0105b0f4e6683e2f0c50f584a73eb",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Contracts/v1/README.md",
+      "sha256": "cab154e0fbdbd8ff72e444c31a5c88dc5016cda73547a6bc52a3c831433a6931",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Contracts/v1/resume-capsule.schema.json",
+      "sha256": "4dd3f13ab51b1cf10e987eb159880631065b803e179de53e22c8ecfefa1a7ed5",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Contracts/v1/runtime-event.schema.json",
+      "sha256": "fc84ea6cfa95079719d52c1adf481566ff19e40e07e824e9b1e232d2e633625c",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Contracts/v1/selection-request.schema.json",
+      "sha256": "5337114c185b226fe844148b7254bccd2cb7a0c3b1dd839fb3ad0660920aaede",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "db4a65c586ac60bf041e1d8b5e31c8d5bd2f029a06609101f308d6ca5d7f122f",
+      "mode": "0644",
+      "origin": "public-template"
+    },
+    {
+      "path": "docs/github/blabee-hero-dark.svg",
+      "sha256": "3ea75d1a80d56b657cb146d0e8800a394e61217c1d303cdcb0d7740837524e86",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "docs/github/blabee-hero-light.svg",
+      "sha256": "eb1fdffe9f7373b5718d174e324910712228964558f711ea6c127c48ea7f2c82",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "docs/github/blabee-social-preview.png",
+      "sha256": "89f00978cdc070eaae52892eb7a85611f0bb0f389df1d448366f0ee245c8c852",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "docs/integrations.md",
+      "sha256": "ab4a15b87d92226690ecd17f7441b5087fa56c287ab1b3121e4ff3c88699e064",
+      "mode": "0644",
+      "origin": "public-template"
+    },
+    {
+      "path": "examples/validate-proposal.mjs",
+      "sha256": "94f649d40fca89029378d28090a074ee5c67997749cfeac43d5e594f483f5094",
+      "mode": "0644",
+      "origin": "public-template"
+    },
+    {
+      "path": "Fixtures/v1/contracts/invalid/continuation-format-repair-with-action-fields.json",
+      "sha256": "09e3be9224ec744220f4fac18731193270248bcc213540ce9d1c770be65d8844",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/invalid/continuation-pet-action-wrong-dispatch.json",
+      "sha256": "5bb687929ed574bb4f6c4e6c369d6a01247d3b3c73bf96e80539a74c3806b17c",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/invalid/decision-packet-disabled-option-with-action.json",
+      "sha256": "ee096f0838a594977308285339d5860d54b5c23bbd0bae2f69d1623a8724310c",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/invalid/decision-packet-wrong-slot-semantics.json",
+      "sha256": "46fd78a15bdf3eefad0c2f97691c4aced45aedbbd36beca9f1fd294b58f2fc87",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/invalid/runtime-format-repair-raw-correlation-token.json",
+      "sha256": "9b9e644350501ea6a477a20c1c3871c29949b8517feaae8a14e77ba89a8bd8a8",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/invalid/runtime-queued-action-context-claim-raw-correlation-token.json",
+      "sha256": "a0631ea55912388132d315e5efdba1a65ca838dfc5a53ac522a8da6cc5590f69",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/invalid/runtime-timeout-automatic-retry.json",
+      "sha256": "a1c9eaaf8ffbd8a9c53302ab9eb0f816517debe5bc428b9039e17c998a089c67",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/invalid/runtime-timeout-marked-failed.json",
+      "sha256": "67efc40ec3db31b0bf25da8ce64b63db9cb926879a5f5a1b411eed8ca5b29d4f",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/invalid/runtime-transport-completed-claims-success.json",
+      "sha256": "5231101ca051ad312eca5305f1ae501a62586eeba4a5e3dff2afd08d023940e0",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/invalid/selection-missing-boundary.json",
+      "sha256": "41eae70deaf60fe782f609ddf1d960f8c24e11f4807adea953b782ad563c3cd8",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/invalid/selection-slot-number-only.json",
+      "sha256": "87ecc386b85b9a61913bdd209b07287a9d8b63049b084803b8b21b0ed35ed90f",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/valid/action.json",
+      "sha256": "787f7998efb5fdfffc065e5284532164899b3fa07100cdc364133885bafa1e2a",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/valid/continuation-format-repair.json",
+      "sha256": "5ecdd8b1a62a73670f1ddd6257e8993726b0c314eb7285faa541e8a1350020f6",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/valid/continuation-pet-action.json",
+      "sha256": "8951eb35c6db858e83514afb34dbba2c9db615612872201e65d699ec571c2df3",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/valid/decision-packet-alternative-disabled.json",
+      "sha256": "94feb9a4c5f29c4da07361cb4c4dedc6dfd3ca888006250d1aa7da6f995acdd3",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/valid/decision-packet-ranked-actions.json",
+      "sha256": "79f5b68913fbb651b30abe0da80a44ccc73797dd4276da71bea94e2e9b589343",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/valid/decision-packet-rollback-disabled.json",
+      "sha256": "7c599eb1bf99877232f7923c329dd4d61fa6beaf27f85cf1b5800cadea5eaf92",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/valid/decision-proposal.json",
+      "sha256": "174fdf172318f8b9d4d4aa41ca02fe3b1d25fd616ee09cf093a795443d7dd531",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/valid/native-request-notification-only.json",
+      "sha256": "12467ecb06b82eb9cfc9efd032db08695e22e9482ba7d239c66045824945ca79",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/valid/prompt-episode.json",
+      "sha256": "bd205ee18aca48dd3bb1cb66f1db79ec0352d1c774acd9cb305037e4980bc79c",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/valid/resume-capsule.json",
+      "sha256": "51e3460e0a6a2b1ddf4b2728ad2ab63b54efc7850ebf91dba0dd2541816fde42",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/valid/runtime-format-repair-claimed.json",
+      "sha256": "9f1e16567ae56dbc0f63b091fb9c5ae68418b478bbc2572d039418a371f4fbf3",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/valid/runtime-format-repair-reserved.json",
+      "sha256": "fca96ac1b3c376293836eeabf263addbefe4f8f36ca3ce220a9a8ace26c85e20",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/valid/runtime-queued-action-context-claimed.json",
+      "sha256": "8143da5ed325e385edb0eedd2a194872efbda2f50d86503cd5c2b60e0660e564",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/valid/runtime-timed-out-unknown.json",
+      "sha256": "82d97a5917052104dd4ed17967348915f25350054084442997a80b0c5510ec5c",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/valid/runtime-transport-completed.json",
+      "sha256": "d9d9f387d735cab8f2644f45b869a6b44c1cb1b2bb794658d4674bc36885817e",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/valid/runtime-work-outcome.json",
+      "sha256": "7b7928de48bd2049db1e8a6473b6e3a4e7cc562dd413392a9ab1519dc4c2b199",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/contracts/valid/selection-request.json",
+      "sha256": "cc95095f19d74f59b2beb4a57db78fb91f65ac9bf1cbeee9bd7befd2f7eb2028",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/event-traces/format-repair-claimed-without-reservation.json",
+      "sha256": "7890994e3071186f0d91e61dba72c0cb58d295ba800abfa6d56be5f4f41298ea",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/event-traces/format-repair-reserved-claimed.json",
+      "sha256": "173ce22219ba9f1a5f8f55addcc1cb4cbf6a0f0fcc3a4d5abe05995f23c06830",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/event-traces/format-repair-restart-duplicate-reservation.json",
+      "sha256": "12d7c01bbbd2be504efd491d4bc44840fe627e86349492d2e2662cc3ad112839",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/event-traces/in-flight-timeout-unknown.json",
+      "sha256": "5e7360560de233cf3d46e8aa4b73b99a7f6590873455e28bf93bb09887f252fa",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/event-traces/same-turn-two-boundaries.json",
+      "sha256": "ac68e6fed78dac4599ec25d71d5fe5cdf7bab48ca3a2da385895cd834dcca4b5",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/event-traces/selection-binding-mismatch.json",
+      "sha256": "652d8ad1b7236382104a2e1c1f9f63747c56a02f29f0279803f4bc42491fd32a",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/event-traces/stale-selection-prior-boundary.json",
+      "sha256": "9651d504b5c64e399311023a9f05e85d2f9b96af0fba62d11affc9c839b618cf",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Fixtures/v1/manifest.json",
+      "sha256": "0241560d4663d8b799344cae84fbb2a397e5ac5129119e4192a8ef22bb47d7d5",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "186445757b633e121e5dff99944727d06c08f7ccd412c47a30540d5fb62e19e5",
+      "mode": "0644",
+      "origin": "public-template"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "a5c52ae9b28418b777338a52d20e8777ae6458b8ebc7a422a51a0bc11268fc35",
+      "mode": "0644",
+      "origin": "public-template"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "10697700a0f56067e6fee55a3222fbfd9f9a9b7d97daed31c656ae059a54e633",
+      "mode": "0644",
+      "origin": "public-template"
+    },
+    {
+      "path": "package.json",
+      "sha256": "0b29bc02739d5ae97a645577bb1448ac0618ac0c532f9772c14e62c12dab0f91",
+      "mode": "0644",
+      "origin": "public-template"
+    },
+    {
+      "path": "PUBLIC_SCOPE.md",
+      "sha256": "863e34f4bf9d59ca41007cbf581f659ff7614bb4391d1259f8d9b476a19543de",
+      "mode": "0644",
+      "origin": "public-template"
+    },
+    {
+      "path": "README.ko.md",
+      "sha256": "d0256cfe5db400e0bd8bbf5a8d6b3f967140b6b49beca35814086a7eab2ca038",
+      "mode": "0644",
+      "origin": "public-template"
+    },
+    {
+      "path": "README.md",
+      "sha256": "24ee0cca558b50d0089f78e53b9489f61111f3cafcdffa645a6063eeb77cfd8b",
+      "mode": "0644",
+      "origin": "public-template"
+    },
+    {
+      "path": "scripts/check.mjs",
+      "sha256": "05820b500365b760cae5d44b23cd3cccc4b20a5ff939c028d6b46378d29b6361",
+      "mode": "0644",
+      "origin": "public-template"
+    },
+    {
+      "path": "scripts/update-source-inventory.mjs",
+      "sha256": "f823a32df9b3bd5da1657255d96461dc24de1cfb7794e80cac9037c364c6bc63",
+      "mode": "0644",
+      "origin": "public-template"
+    },
+    {
+      "path": "scripts/verify-public-sources.mjs",
+      "sha256": "c45dee4bf9b0d68f90ef2cae61e66cd656260740a4ea3ea04a9e7f1bb0d5dfee",
+      "mode": "0644",
+      "origin": "public-template"
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "51cbbdfa1e99eae518ee929a8f8ea1ccdf0e753aa3b6c1dd2bbe42223b9eb6a7",
+      "mode": "0644",
+      "origin": "public-template"
+    },
+    {
+      "path": "Tests/bridges/claude/auto-connect.test.mjs",
+      "sha256": "64b9e5ed8773edab382b2a6f5c76d2e1053f8e346fb2665b5c8b7b28c170f0dd",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Tests/bridges/claude/fixtures/product-hook/selection-notice.json",
+      "sha256": "d5c0d265ba0fad4e4f5c6479ca801de937ec2fc93988f36dd9b18067f5fb5a6d",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Tests/bridges/claude/session-v2-bridge.test.mjs",
+      "sha256": "b99ba2a54a93889d7c3bee551a9155fe9aff78e1475349d57b03e4e640f141ae",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Tests/bridges/claude/session-v2-cancellation.test.mjs",
+      "sha256": "1ccee97b027320ada493d6571f78699e851c0e94b38dc5fb1b112cd87ffd7594",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Tests/bridges/claude/session-v2-channel-poller.test.mjs",
+      "sha256": "7a863c6aaab32cbcf210ea07c0c26fdc9c47f7f82530736de0e9268cd2dfb5ab",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Tests/bridges/claude/session-v2-client.test.mjs",
+      "sha256": "d21270de4d4c6c24137986cd3fc7eb678dec0bf18d5aecf2009c68ed8ad56e85",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Tests/bridges/claude/session-v2-compatibility.test.mjs",
+      "sha256": "02853758deda6a968cfe0823da6252dcbbcf04b59d0d373d95aaaa139c193246",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Tests/bridges/claude/session-v2-diagnostics.test.mjs",
+      "sha256": "ca31e74c4abbc1359b39d53e83a9b50cf0fae8d90967ebd6f402d41a3706a3e6",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Tests/bridges/claude/session-v2-heartbeat.test.mjs",
+      "sha256": "c5d164d97f409a16600fe9ca1c88d003a5ee6646d7ed42c09015d9f8d34b0c44",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Tests/bridges/claude/session-v2-hook-input.test.mjs",
+      "sha256": "61d4dbbbe7c8847c75c6eaf4983c2ae97ad68c58426fa9e69371f04685d98907",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Tests/bridges/claude/session-v2-lifecycle.test.mjs",
+      "sha256": "503c6e005ef944cc848f0d8d358691ce8572f1fb8f620576c2b61fe45e7e5c02",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Tests/bridges/claude/session-v2-waiter.test.mjs",
+      "sha256": "029f5d642c15e3d125e3d2d4cc6e06ce28702eb35b2be93158fcacce07f62a86",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Tests/Contracts/continuation-claim.mjs",
+      "sha256": "8972a319ad1258c3bcc849ceacd60dc0c5ae35b92f22a17f7ef38f4538ca1777",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Tests/Contracts/contract-harness.mjs",
+      "sha256": "a096b67f96d5fe39c36e14b9315fa66d24c9f45f7dc59f626ef172d093c04d61",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Tests/Contracts/decision-packet-semantic.mjs",
+      "sha256": "aa8e130fcb4ed234111a15b290ad66ac1e2120abb91e8f672cf8f53114c9dec5",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Tests/Contracts/rfc3339.mjs",
+      "sha256": "7e650683d935bd0134eacac3335a03471dda4af4a23fc329230ccfe309bf1fa5",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Tests/Contracts/semantic-trace.mjs",
+      "sha256": "bf0aad252dc23550b05c00546faa0b9c52edf03138ca2c917e27a18735198857",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Tests/Contracts/v1-contracts.test.mjs",
+      "sha256": "554b537d42a3310e730de403b52145cc53aef96e5370fe9b9b77a4c6fb716481",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Tests/CoordinatorOperational/plugin-package.test.mjs",
+      "sha256": "7dbde126c26c679e372994a7be8a37b1b992efb55bc8e7156d238b043f049d76",
+      "mode": "0644",
+      "origin": "source"
+    },
+    {
+      "path": "Tests/Public/public-scope.test.mjs",
+      "sha256": "ba44bfade1414f12107e8921b087090f9d5295b059572b7ffaffbfa5734da976",
+      "mode": "0644",
+      "origin": "public-template"
+    }
+  ]
+}
