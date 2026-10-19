@@ -6,11 +6,11 @@ the app is published.
 
 ## App updates
 
-### r86 (Unreleased)
+### r86
 
-**App version:** 0.1.0 (build 86). Built and Apple notarized on 2026-10-19;
-not yet published on GitHub. The published app download remains
-[r85](https://github.com/Hyunwoojooo/biadone/releases/tag/blabee-v0.1.0%2Bbuild.85).
+**Released:** 2026-10-19. **App version:** 0.1.0 (build 86).
+Developer ID signed and Apple notarized.
+[Download r86](https://github.com/Hyunwoojooo/biadone/releases/tag/blabee-v0.1.0%2Bbuild.86).
 
 #### Improved
 
@@ -40,7 +40,9 @@ automatically reset storage.
 - Added frozen v1 contracts, synthetic fixtures and isolated regression tests.
 - Added English and Korean product/setup documentation and offline examples.
 - Kept the macOS app, Swift Engine and operational backend outside this source
-  scope. The app download remains the existing signed and notarized r85 release.
+  scope. At the time of this source snapshot, the app download was the signed
+  and notarized r85 release.
 
-The integration snapshot version and app build number are separate. See
+The integration snapshot remains r85; its version and the app build number are
+separate. See
 `PUBLIC_SOURCES.json` for the exact published file inventory.
