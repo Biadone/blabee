@@ -13,13 +13,15 @@ Codex와 Claude Code의 다음 작업을 Mac 메뉴바에서 확인하세요.<br
 
 [![macOS 13+](https://img.shields.io/badge/macOS-13%2B-253746?style=flat-square)](#사용-조건) [![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-arm64-456779?style=flat-square)](#사용-조건) [![Release r85](https://img.shields.io/badge/release-r85-C4A64C?style=flat-square)](https://github.com/Hyunwoojooo/biadone/releases/tag/blabee-v0.1.0%2Bbuild.85)
 
-**[macOS용 다운로드](https://github.com/Hyunwoojooo/biadone/releases/download/blabee-v0.1.0%2Bbuild.85/Blabee-0.1.0-arm64-r85.dmg)** · [시작하기](#시작하기) · [웹사이트](https://biadone.com/blabee/) · [English](README.md)
+**[macOS용 다운로드](https://github.com/Hyunwoojooo/biadone/releases/download/blabee-v0.1.0%2Bbuild.85/Blabee-0.1.0-arm64-r85.dmg)** · [시작하기](#시작하기) · [변경 이력](CHANGELOG.md) · [웹사이트](https://biadone.com/blabee/) · [English](README.md)
 
 </div>
 
 <p align="center"><sub>Blabee의 선택 패널을 표현한 제품 일러스트입니다.</sub></p>
 
 > **앱 다운로드는 r85입니다.** 이 저장소는 연동 구성요소를 MIT 라이선스로 공개합니다. macOS 앱 전체와 Swift Engine 소스는 포함하지 않습니다. [공개 범위](PUBLIC_SCOPE.md)를 확인하세요.
+
+[r86의 설정·복구 개선 내역](CHANGELOG.md#r86-unreleased)을 패치노트 초안에서 확인할 수 있습니다. r86은 아직 배포되지 않았습니다.
 
 ## 다음 결정을 위한 작은 공간
 
@@ -154,4 +156,4 @@ npm test
 
 버그·기능 제안은 [Issues](https://github.com/Biadone/blabee/issues/new/choose)로 보내 주세요. 보안 문제가 의심되면 상세 내용을 공유하기 전에 [SECURITY.md](SECURITY.md)를 확인하세요.
 
-**더 보기:** [웹사이트](https://biadone.com/blabee/) · [r85 다운로드](https://github.com/Hyunwoojooo/biadone/releases/tag/blabee-v0.1.0%2Bbuild.85) · [English](README.md)
+**더 보기:** [웹사이트](https://biadone.com/blabee/) · [변경 이력](CHANGELOG.md) · [r85 다운로드](https://github.com/Hyunwoojooo/biadone/releases/tag/blabee-v0.1.0%2Bbuild.85) · [English](README.md)

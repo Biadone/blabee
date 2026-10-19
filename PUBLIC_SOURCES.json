@@ -154,7 +154,7 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "683acd62e983f4fdbd6ded4166fd539293d79feb72d5d1f1dd1d5f10f45ffd8e",
+      "sha256": "80e798049c0a8104d309e982f75e0935de89b1cfa6f9a8904df6f3a92e7d5050",
       "mode": "0644",
       "origin": "public-template"
     },
@@ -514,13 +514,13 @@
     },
     {
       "path": "README.ko.md",
-      "sha256": "d0256cfe5db400e0bd8bbf5a8d6b3f967140b6b49beca35814086a7eab2ca038",
+      "sha256": "b15a419e6ba6827156addc0bfc36bb47cf2c8fc1ea25fb6a5574aea668d04381",
       "mode": "0644",
       "origin": "public-template"
     },
     {
       "path": "README.md",
-      "sha256": "24ee0cca558b50d0089f78e53b9489f61111f3cafcdffa645a6063eeb77cfd8b",
+      "sha256": "5eda2413fae703dc7ac1f987c4a6d630315674ac9384aa9d9f0e42f338526da4",
       "mode": "0644",
       "origin": "public-template"
     },
