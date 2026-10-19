@@ -154,7 +154,7 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "881a61da7f88a039b9fcad58cbf9a2af733eccb7f1fe3fcad810a8f76ee63044",
+      "sha256": "5497a90526db0651c78b8d635ff3746fcaa57f4c6b1a3e88bcbef7bc7be819a3",
       "mode": "0644",
       "origin": "public-template"
     },
