@@ -19,6 +19,7 @@ const FIXTURE_FILES = [
   ["CONTRIBUTING.md", "Fixture contribution guide\n"],
   ["SECURITY.md", "Fixture security guide\n"],
   ["CHANGELOG.md", "Fixture changelog\n"],
+  ["CHANGELOG.ko.md", "# 앱 변경 이력\n\n## r86\n한국어 패치노트 테스트.\n"],
   ["PUBLIC_SCOPE.md", "Public integration fixture scope.\n"],
   ["package.json", '{"type":"module","private":true}\n'],
   ["package-lock.json", '{"lockfileVersion":3}\n'],
@@ -94,7 +95,7 @@ async function linkOrSkip(t, target, filename, type = "file") {
   }
 }
 
-test("a complete export accepts both origins and executable files, including the verifier itself", async (t) => {
+test("a complete export accepts a declared Korean changelog, both origins and executable files, including the verifier itself", async (t) => {
   const fixture = await makeExport(t);
   assert.deepEqual(await verifyPublicSources(fixture.root), {
     ok: true,
@@ -146,6 +147,23 @@ test("modified bytes, missing declared files, and unlisted files fail independen
   }
 });
 
+test("the Korean changelog must match its manifest entry and remain present", async (t) => {
+  for (const [name, mutate, code] of [
+    ["modified", (fixture) => put(fixture.root, "CHANGELOG.ko.md", SECRET_SENTINEL), "HASH_MISMATCH"],
+    ["missing", (fixture) => rm(path.join(fixture.root, "CHANGELOG.ko.md")), "MISSING_FILE"],
+    ["undeclared", async (fixture) => {
+      fixture.manifest.files = fixture.manifest.files.filter((entry) => entry.path !== "CHANGELOG.ko.md");
+      await writeManifest(fixture);
+    }, "UNLISTED_FILE"],
+  ]) {
+    await t.test(name, async (subtest) => {
+      const fixture = await makeExport(subtest);
+      await mutate(fixture);
+      await rejectsCode(fixture.root, code);
+    });
+  }
+});
+
 test("POSIX permissions must match all declared permission bits", { skip: process.platform === "win32" }, async (t) => {
   const fixture = await makeExport(t);
   await chmod(path.join(fixture.root, "README.md"), 0o600);
@@ -186,7 +204,10 @@ test("manifest paths exclude product implementations, environment, database and 
 });
 
 test("scope permits only the one approved CoordinatorOperational test and named root files", async (t) => {
-  for (const filename of ["Tests/CoordinatorOperational/operational-roundtrip.test.mjs", "PRIVATE.md", "bridges/claude/package.json"]) {
+  for (const filename of [
+    "Tests/CoordinatorOperational/operational-roundtrip.test.mjs", "PRIVATE.md", "bridges/claude/package.json",
+    "CHANGELOG.ko-KR.md", "CHANGELOG.ko.md.bak",
+  ]) {
     await t.test(filename, async (subtest) => {
       const fixture = await makeExport(subtest);
       fixture.manifest.files.push({ ...fixture.manifest.files[0], path: filename });
@@ -201,6 +222,7 @@ test("actual files and even empty directories cannot bypass the public path poli
     ["engine/Private.swift", false, "FORBIDDEN_PATH"],
     ["docs/.env", false, "FORBIDDEN_PATH"],
     ["private", true, "OUTSIDE_SCOPE"],
+    ["CHANGELOG.ko.md.bak", false, "OUTSIDE_SCOPE"],
   ]) {
     await t.test(filename, async (subtest) => {
       const fixture = await makeExport(subtest);

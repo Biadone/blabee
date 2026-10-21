@@ -11,17 +11,17 @@
 
 Next steps from Codex and Claude Code, together in your Mac’s menu bar.<br>Review a card, choose what happens next, and continue in the original session.
 
-[![macOS 13+](https://img.shields.io/badge/macOS-13%2B-253746?style=flat-square)](#requirements) [![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-arm64-456779?style=flat-square)](#requirements) [![Release r86](https://img.shields.io/badge/release-r86-C4A64C?style=flat-square)](https://github.com/Hyunwoojooo/biadone/releases/tag/blabee-v0.1.0%2Bbuild.86)
+[![macOS 13+](https://img.shields.io/badge/macOS-13%2B-253746?style=flat-square)](#requirements) [![Apple Silicon](https://img.shields.io/badge/Apple_Silicon-arm64-456779?style=flat-square)](#requirements) [![Release r87](https://img.shields.io/badge/release-r87-C4A64C?style=flat-square)](https://github.com/Hyunwoojooo/biadone/releases/tag/blabee-v0.1.0%2Bbuild.87)
 
-**[Download for macOS](https://github.com/Hyunwoojooo/biadone/releases/download/blabee-v0.1.0%2Bbuild.86/Blabee-0.1.0-arm64-r86.dmg)** · [Get started](#get-started) · [Changelog](CHANGELOG.md) · [Website](https://biadone.com/blabee/) · [한국어](README.ko.md)
+**[Download for macOS](https://github.com/Hyunwoojooo/biadone/releases/download/blabee-v0.1.0%2Bbuild.87/Blabee-0.1.0-arm64-r87.dmg)** · [Get started](#get-started) · [Changelog](CHANGELOG.md) · [Website](https://biadone.com/blabee/) · [한국어](README.ko.md)
 
 </div>
 
 <p align="center"><sub>An illustrated preview of the Blabee decision panel.</sub></p>
 
-> **App download: r86.** This repository publishes selected integration components under the MIT license. The full macOS application and Swift Engine are not included. See [source scope](PUBLIC_SCOPE.md).
+> **App download: r87.** This repository publishes selected integration components under the MIT license. The full macOS application and Swift Engine are not included. See [source scope](PUBLIC_SCOPE.md).
 
-Read the [r86 setup and recovery improvements](CHANGELOG.md#r86) in the release notes. Released on 2026-10-19.
+Read the [r87 Codex and Claude connection improvements](CHANGELOG.md#r87) in the release notes. Released on 2026-10-21.
 
 ## A small place for the next decision
 
@@ -47,9 +47,9 @@ Your Codex and Claude Code accounts and any usage charges remain with those serv
 
 ### 1. Install Blabee
 
-Download **[Blabee 0.1.0 r86](https://github.com/Hyunwoojooo/biadone/releases/tag/blabee-v0.1.0%2Bbuild.86)** and open the DMG. Install **Blabee.app** in **Applications**, then launch it from there.
+Download **[Blabee 0.1.0 r87](https://github.com/Hyunwoojooo/biadone/releases/tag/blabee-v0.1.0%2Bbuild.87)** and open the DMG. Install **Blabee.app** in **Applications**, then launch it from there.
 
-The r86 app and DMG are Developer ID signed and Apple notarized. The release includes a SHA-256 checksum and build provenance.
+The r87 app and DMG are Developer ID signed and Apple notarized. The release includes a SHA-256 checksum and build provenance.
 
 ### 2. Finish the first-run guide
 
@@ -148,7 +148,7 @@ npm test
 
 These checks use fake peers, temporary sockets and synthetic data. They do not launch the installed app, Codex or Claude, use a model account, or access production Keychain/DB state.
 
-Read the [integration guide](docs/integrations.md), [public source scope](PUBLIC_SCOPE.md), and [contributing guide](CONTRIBUTING.md). `PUBLIC_SOURCES.json` records the exact file inventory and hashes. The public integration source snapshot remains r85; r86 updates the app download and release documentation without replacing that source snapshot.
+Read the [integration guide](docs/integrations.md), [public source scope](PUBLIC_SCOPE.md), and [contributing guide](CONTRIBUTING.md). `PUBLIC_SOURCES.json` records the exact file inventory and hashes. The public integration source snapshot remains r85; r87 updates the app download and release documentation without replacing that source snapshot.
 
 ## License and feedback
 
@@ -156,4 +156,4 @@ The **published integration source** is [MIT licensed](LICENSE). The separately 
 
 Use [Issues](https://github.com/Biadone/blabee/issues/new/choose) for bugs and feature requests. For suspected security issues, follow [SECURITY.md](SECURITY.md) before sharing details.
 
-**More:** [Website](https://biadone.com/blabee/) · [Changelog](CHANGELOG.md) · [Download r86](https://github.com/Hyunwoojooo/biadone/releases/tag/blabee-v0.1.0%2Bbuild.86) · [한국어](README.ko.md)
+**More:** [Website](https://biadone.com/blabee/) · [Changelog](CHANGELOG.md) · [Download r87](https://github.com/Hyunwoojooo/biadone/releases/tag/blabee-v0.1.0%2Bbuild.87) · [한국어](README.ko.md)

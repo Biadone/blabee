@@ -154,7 +154,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "5497a90526db0651c78b8d635ff3746fcaa57f4c6b1a3e88bcbef7bc7be819a3",
+      "sha256": "f87dfc7fe2c281132db78de8277df522bf0b41df29fd9b56c81d0928601da840",
+      "mode": "0644",
+      "origin": "public-template"
+    },
+    {
+      "path": "CHANGELOG.ko.md",
+      "sha256": "145f3382af6b95231bac3bf30dd61efe485861693fd7643620dd8fe215e2fc15",
       "mode": "0644",
       "origin": "public-template"
     },
@@ -514,13 +520,13 @@
     },
     {
       "path": "README.ko.md",
-      "sha256": "e41106322beab499d36533175ad99a7f96415c003c701444423e0bc8dab3e9a7",
+      "sha256": "3a737a99ad26a87c19d2dd418324330b3015564363c94bf70e971d9be6c0ada3",
       "mode": "0644",
       "origin": "public-template"
     },
     {
       "path": "README.md",
-      "sha256": "af4c79dc0acbc89c6cd711f98cfed2d90e60c2d83ed6164e106406d0a8d67afb",
+      "sha256": "32dc39fdbe04cb6e0a237bf52004985e9a17b7459b960b5db548a49e91b52a8c",
       "mode": "0644",
       "origin": "public-template"
     },
@@ -538,7 +544,7 @@
     },
     {
       "path": "scripts/verify-public-sources.mjs",
-      "sha256": "c45dee4bf9b0d68f90ef2cae61e66cd656260740a4ea3ea04a9e7f1bb0d5dfee",
+      "sha256": "1383bff34b27bf46c7465824e5f8953416c7d4d37480297c0630eb51eeebfea4",
       "mode": "0644",
       "origin": "public-template"
     },
@@ -664,7 +670,7 @@
     },
     {
       "path": "Tests/Public/public-scope.test.mjs",
-      "sha256": "ba44bfade1414f12107e8921b087090f9d5295b059572b7ffaffbfa5734da976",
+      "sha256": "4fb99c430db0214420a10a12b2e11bf23880fbe0eb9a9f19172a7d6c994bde74",
       "mode": "0644",
       "origin": "public-template"
     }

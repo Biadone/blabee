@@ -21,6 +21,7 @@ const ROOT_FILES = new Set([
   "CONTRIBUTING.md",
   "SECURITY.md",
   "CHANGELOG.md",
+  "CHANGELOG.ko.md",
   "package.json",
   "package-lock.json",
   "PUBLIC_SCOPE.md",
