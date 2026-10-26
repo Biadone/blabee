@@ -154,13 +154,13 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "f87dfc7fe2c281132db78de8277df522bf0b41df29fd9b56c81d0928601da840",
+      "sha256": "e5728ec0e1a581000ea21a5f3c89fb53e1898f949a80cc075dfb73d873f0eb31",
       "mode": "0644",
       "origin": "public-template"
     },
     {
       "path": "CHANGELOG.ko.md",
-      "sha256": "145f3382af6b95231bac3bf30dd61efe485861693fd7643620dd8fe215e2fc15",
+      "sha256": "88feed7d1212d31c690cdd757301a7c5c52508fa8657090559286fe3133751a7",
       "mode": "0644",
       "origin": "public-template"
     },
@@ -520,13 +520,13 @@
     },
     {
       "path": "README.ko.md",
-      "sha256": "3a737a99ad26a87c19d2dd418324330b3015564363c94bf70e971d9be6c0ada3",
+      "sha256": "7d549945908983fa72b6e1717a916be351fa443a96b0c075003339915620b416",
       "mode": "0644",
       "origin": "public-template"
     },
     {
       "path": "README.md",
-      "sha256": "32dc39fdbe04cb6e0a237bf52004985e9a17b7459b960b5db548a49e91b52a8c",
+      "sha256": "6eb5a447dff12ff3ca53eccc77d3522132c74c0d8f0ec38cdd5166e63a3ac360",
       "mode": "0644",
       "origin": "public-template"
     },

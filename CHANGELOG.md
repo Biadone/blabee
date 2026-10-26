@@ -20,6 +20,39 @@ See the [README](README.md) for the current download and setup instructions.
 
 ## App updates
 
+### r88
+
+**Released:** 2026-10-26. **App version:** 0.1.0 (build 88, arm64).
+Developer ID signed and Apple notarized.
+[Download r88](https://github.com/Hyunwoojooo/biadone/releases/tag/blabee-v0.1.0%2Bbuild.88).
+
+#### Improved
+
+- Added Codex **0.164.0** compatibility for Plugin connections and selection
+  delivery, addressing the `codex_native_version_unqualified` rejection that
+  previously blocked submission with this exact version.
+- Added the official 0.164.0 runtime to managed Codex compatibility checks for
+  workspace routing, session resume, and update handling.
+- Registered the official 0.164.0 macOS arm64 executable for supported Pet
+  permission approvals. Existing trust and request checks remain required.
+- Clarified Hook status messages: Codex checks may update existing trust
+  metadata, and changed Plugin contents may require review in `/hooks`.
+
+#### Update notes
+
+- Install r88 to apply the new support. Failed selections are not resent
+  automatically; request a fresh card or continue explicitly in the original
+  conversation.
+- This compatibility update does not change the general handling of a
+  **Working** status after other delivery failures.
+
+**Validation scope:** 775 focused Swift tests, 233 contract/compatibility checks,
+270 packaging checks, the official Codex package's Swift catalog check, and the
+actual bundled Claude payload check passed. One optional packaging check was
+skipped. Signing, Apple notarization, stapling, and Gatekeeper checks passed.
+Clean-Mac installation, installed-app update/relaunch, OAuth, and a live
+Hook → Pet → queue → completed-work round trip still require separate validation.
+
 ### r87
 
 **Released:** 2026-10-21. **App version:** 0.1.0 (build 87, arm64).
